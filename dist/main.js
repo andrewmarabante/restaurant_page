@@ -1,1 +1,1 @@
-alert("WOAH THERE");
+(()=>{"use strict";alert("WOAH THERE"),function(){const e=document.getElementById("content"),t=document.createElement("h1"),n=document.createElement("img");n.src="../images/burger.jpg";const r=document.createElement("p");t.innerHTML="Some Burger Restaurant",r.innerHTML="Some Burger Restaurant is the best spot to stop and have a juicy, delicious, absolutely scrumptious burger.",e.appendChild(t),e.appendChild(n),e.appendChild(r)}()})();
