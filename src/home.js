@@ -1,4 +1,4 @@
-export function pageLoad()
+export function homeLoad()
 {
     const content = document.getElementById("content");
     const header = document.createElement("h1");
@@ -12,4 +12,5 @@ export function pageLoad()
     content.appendChild(header);
     content.appendChild(burger);
     content.appendChild(description);
+    console.log('Working')
 }

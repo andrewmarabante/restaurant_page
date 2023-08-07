@@ -1,5 +1,10 @@
-alert('WOAH THERE');
+import { homeLoad } from "./home";
+import { objectiveLoad } from "./objective";
+import { menuLoad } from "./menu";
+import { contactLoad} from "./contactus";
+homeLoad();
 
-import { pageLoad } from "./startup";
-
-pageLoad();
+document.getElementById('home').addEventListener('click', homeLoad);
+document.getElementById('obj').addEventListener('click', objectiveLoad);
+document.getElementById('menu').addEventListener('click', menuLoad);
+document.getElementById('contact').addEventListener('click', contactLoad);
