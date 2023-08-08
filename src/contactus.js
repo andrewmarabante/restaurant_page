@@ -9,6 +9,7 @@ export function contactLoad()
     header.innerHTML = "Contact Us"
     description.innerHTML = "We would absolutely LOVE to hear from you. Let us know what you think of our burgers!!"
 
+    content.textContent = '';  
     content.appendChild(header);
     content.appendChild(burger);
     content.appendChild(description);

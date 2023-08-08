@@ -9,6 +9,7 @@ export function menuLoad()
     header.innerHTML = "Our Menu"
     description.innerHTML = "Not An Actual Menu"
 
+    content.textContent = '';
     content.appendChild(header);
     content.appendChild(burger);
     content.appendChild(description);

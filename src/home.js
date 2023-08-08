@@ -9,6 +9,7 @@ export function homeLoad()
     header.innerHTML = "Some Burger Restaurant"
     description.innerHTML = "Some Burger Restaurant is the best spot to stop and have a juicy, delicious, absolutely scrumptious burger."
 
+    content.textContent = '';
     content.appendChild(header);
     content.appendChild(burger);
     content.appendChild(description);
