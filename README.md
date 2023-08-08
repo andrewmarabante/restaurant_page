@@ -1,1 +1,3 @@
 # restaurant_page
+
+Woops! I was a bit overwhelmed with all of the new webpack stuff that I didn't even write a README for this one.. This project is basically just a first webpack introduction.. I learned how to create different modules and link them to my index using import and export, and then run the webpack in the CLI to update a main.js in a dist folder. Not gunna lie, it is a lot to take in at first but it is actually quite easy once you understand the basic concepts. I am NOT going to style this one very much because my heart just isn't in it lol... I did the javascript/webpack and that's the main takeaway.
